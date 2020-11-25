@@ -1017,6 +1017,7 @@ p {
   }
   body {
     width: 100;
+    overflow: hidden;
   }
   .logo {
     width: 50%;
@@ -1025,7 +1026,9 @@ p {
     width: 40%;
     left: 5rem;
   }
-
+  html {
+    overflow-x: hidden;
+  }
   .container {
     width: 50%;
   }
