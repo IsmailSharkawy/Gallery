@@ -1013,8 +1013,11 @@ p {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .main {
     overflow: hidden;
+    width: 100%;
   }
-
+  body {
+    width: 100;
+  }
   .logo {
     width: 50%;
   }
@@ -1024,7 +1027,7 @@ p {
   }
 
   .container {
-    width: 100%;
+    width: 50%;
   }
   .word2 {
     width: 40%;
