@@ -43,7 +43,7 @@ body {
   margin: 0;
   /* padding:0; */
   position: relative;
-  background: url(../img/Yuki.png) no-repeat;
+  background: url(../img/Yuki.png) no-repeat fixed;
   background-size: cover;
 }
 
@@ -661,7 +661,7 @@ body.splat-toggle .splat {
 
 header {
   position: fixed;
-  padding: 30px;
+  /* padding: 30px; */
   top: 0;
   width: 100%;
   z-index: 3;
@@ -922,7 +922,7 @@ p {
 .splat-toggle {
   overflow: hidden;
 }
-/* @media only screen and (min-width: 600px) and (max-width: 1450px) {
+@media only screen and (min-width: 600px) and (max-width: 1450px) {
   .main {
     overflow: hidden;
   }
@@ -1009,8 +1009,8 @@ p {
   .images .container .box:nth-child(4) {
     animation-delay: 20s;
   }
-} */
-/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .main {
     overflow: hidden;
   }
@@ -1110,4 +1110,4 @@ p {
   .images .container .box:nth-child(4) {
     animation-delay: 20s;
   }
-} */
+}
