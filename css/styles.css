@@ -1026,6 +1026,11 @@ p {
     margin-top: 3rem;
     margin-left: 3rem;
   }
+
+  .cs-slider {
+    height: 50%;
+    width: 50%;
+  }
   body {
     width: 100;
     overflow: hidden;
@@ -1040,8 +1045,12 @@ p {
   html {
     overflow-x: hidden;
   }
-  .container {
-    width: 50%;
+  .container_1 {
+    width: 400rem;
+  }
+  .cs-slider {
+    height: 65rem;
+    /* width: 300rem; */
   }
   .word2 {
     width: 40%;
@@ -1064,6 +1073,9 @@ p {
   .btn-container {
     color: white;
     width: 50%;
+  }
+  .images {
+    height: 100%;
   }
   blockquote {
     font-size: 20px;
