@@ -922,10 +922,8 @@ p {
 .splat-toggle {
   overflow: hidden;
 }
-@media (min-width: 600px) and (max-width: 1450px) {
+/* @media only screen and (min-width: 600px) and (max-width: 1450px) {
   .main {
-    bottom: 0;
-    left: 0;
     overflow: hidden;
   }
 
@@ -1011,14 +1009,17 @@ p {
   .images .container .box:nth-child(4) {
     animation-delay: 20s;
   }
-}
+} */
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .main {
+    overflow: hidden;
+  }
 
-@media (min-width: 300px) and (max-width: 800px) {
   .logo {
-    width: 2%;
+    width: 50%;
   }
   .word1 {
-    width: 100%;
+    width: 40%;
     left: 5rem;
   }
 
@@ -1033,58 +1034,61 @@ p {
     color: white;
     width: 100vh;
   }
-
-  blockquote {
-    font-size: 20px;
-    line-height: 80%;
-    position: absolute;
-    font-family: Georgia, serif;
-    width: 300px;
-    text-align: center;
-    display: inline-block;
-    left: 15rem;
-    transform: skew(-65deg, 0deg) scaleY(1.2);
-    bottom: 3rem;
-    color: white;
-  }
-  blockquote:before {
-    content: "\201C";
-    position: absolute;
-    top: -10px;
-    left: 0;
-    font-family: Arial, sans-serif;
-    font-size: 75px;
-    font-style: normal;
-  }
-  blockquote:after {
-    content: "\201C";
-    position: absolute;
-    bottom: -60px;
-    right: 0;
-    font-family: Arial, sans-serif;
-    font-size: 75px;
-    font-style: normal;
-  }
-  .full-menu {
-    overflow: scroll;
-  }
-  .splat-toggle {
-    overflow: hidden;
-  }
-
-  .page-menu li {
-    margin: 40px;
-  }
   .main {
-    background: url(../img/test3.jpg) no-repeat;
-    background-size: cover;
-    display: table;
-    margin-top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+    text-align: center;
+    margin: auto;
     position: relative;
   }
+  .body {
+    text-align: center;
+    margin: auto;
+    position: relative;
+  }
+  .btn-container {
+    color: white;
+    width: 50%;
+  }
+  blockquote {
+    font-size: 20px;
+    line-height: 80%;
+    position: absolute;
+    font-family: Georgia, serif;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    left: 15rem;
+    transform: skew(-65deg, 0deg) scaleY(1.2);
+    bottom: 3rem;
+    color: white;
+  }
+  blockquote:before {
+    content: "\201C";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    font-family: Arial, sans-serif;
+    font-size: 75px;
+    font-style: normal;
+  }
+  blockquote:after {
+    content: "\201C";
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    font-family: Arial, sans-serif;
+    font-size: 75px;
+    font-style: normal;
+  }
+  .full-menu {
+    overflow: scroll;
+  }
+  .splat-toggle {
+    overflow: hidden;
+  }
+
+  .page-menu li {
+    margin: 40px;
+  }
 
   .images .container .box {
     flex-basis: 25%;
@@ -1106,4 +1110,4 @@ p {
   .images .container .box:nth-child(4) {
     animation-delay: 20s;
   }
-}
+} */
