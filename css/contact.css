@@ -12,6 +12,11 @@ body {
 
   /* font-family: "ds-digitalitalic", sans-serif; */
 }
+li a {
+  text-decoration: none;
+  width: 50%;
+  font-size: 20px;
+}
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
@@ -212,6 +217,7 @@ input[type="submit"]:focus {
   .full-menu .fullmenu-content {
     padding: 6em 5%;
   }
+
   .full-menu .modal-close {
     height: 60px;
     width: 60px;
@@ -714,10 +720,14 @@ header {
     /* transform:scaleY(1.5); */
     transition: all ease-in-out 0.3s;
   }
-  .page-menu li {
-    margin-top: 100px;
+  li a {
+    text-decoration: none;
+    width: 50%;
+    font-size: 20px;
   }
-
+  .page-menu li {
+    margin: 40px;
+  }
   .blackboard {
     position: relative;
     display: block;

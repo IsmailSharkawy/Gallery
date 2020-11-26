@@ -733,6 +733,8 @@ header {
   margin: 0 auto 0;
   padding-top: 100px;
   background: url(../img/img-bck.jpg) no-repeat fixed;
+  /* background: url(../images/021-2.jpg) no-repeat ; */
+
   background-size: cover;
 }
 
