@@ -806,7 +806,9 @@ p {
   height: auto;
   text-align: center;
 }
-
+.content p {
+  font-size: 0.75rem;
+}
 @keyframes neon {
   0% {
     text-shadow: -1px -1px 1px var(--shadow-color-light),
@@ -1027,10 +1029,6 @@ p {
     margin-left: 3rem;
   }
 
-  .cs-slider {
-    height: 50%;
-    width: 50%;
-  }
   body {
     width: 100;
     overflow: hidden;
@@ -1050,7 +1048,7 @@ p {
   }
   .cs-slider {
     height: 65rem;
-    /* width: 300rem; */
+    width: 20%;
   }
   .word2 {
     width: 40%;
