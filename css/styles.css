@@ -675,7 +675,7 @@ header {
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  margin-top: 7px;
+  margin: 20px;
 }
 
 .nav-icon span {
@@ -1022,13 +1022,29 @@ p {
   .nav-icon {
     width: 5rem;
     display: inline;
-    height: 9rem;
-    position: fixed;
+    height: 13rem;
+    position: absolute;
     transform: rotate(0deg);
     transition: 0.5s ease-in-out;
     cursor: pointer;
     margin-top: 3rem;
     margin-left: 3rem;
+  }
+  .nav-icon span:nth-child(1) {
+    top: 0px;
+    transform-origin: left center;
+  }
+
+  .nav-icon span:nth-child(2) {
+    top: 13px;
+    transform-origin: left center;
+  }
+
+  .nav-icon span:nth-child(3) {
+    top: 23px;
+    transform-origin: left center;
+    width: 60%;
+    right: 0 !important;
   }
 
   body {
