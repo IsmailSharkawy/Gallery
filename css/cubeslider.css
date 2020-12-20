@@ -4,6 +4,7 @@
   padding: 0;
   display: flex;
   flex-basis: 80%;
+
   position: relative;
   width: 100%;
 }
